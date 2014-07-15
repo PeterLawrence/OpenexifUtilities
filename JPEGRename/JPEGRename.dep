@@ -1,0 +1,345 @@
+# Microsoft Developer Studio Generated Dependency File, included by JPEGRename.mak
+
+.\dlgtxtctrl.cpp : \
+	".\dlgtxtctrl.h"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEGRename.cpp : \
+	"..\..\jpeg\jpeg-6b\jconfig.h"\
+	"..\..\jpeg\jpeg-6b\jmorecfg.h"\
+	"..\..\jpeg\jpeg-6b\jpeglib.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifapp0seg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifappsegmanager.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifappsegment.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifcommarker.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifcomp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifconf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifdefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exiferrorcodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifhuffmantable.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exififd.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifijgwrapper.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifimagefile.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifio.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifjpegextn.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifjpegimage.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exifopenfile.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exiftagentry.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exiftags.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exiftiffappseg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\include\exiftypedefs.h"\
+	".\dlgtxtctrl.h"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\JPEGRename.rc : \
+	".\small.ico"\
+	".\TimeStampWin.ICO"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifApp0Seg.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifApp0Seg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegment.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegManager.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegManager.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegment.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifRawAppSeg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegment.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifApp0Seg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegment.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIFD.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifRawAppSeg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTagEntry.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTags.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTiffAppSeg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifFileIO.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifFileIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifHuffmanTable.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifHuffmanTable.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifIFD.cpp" : \
+	"..\..\jpeg\jpeg-6b\jconfig.h"\
+	"..\..\jpeg\jpeg-6b\jmorecfg.h"\
+	"..\..\jpeg\jpeg-6b\jpeglib.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifHuffmanTable.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIFD.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIJGWrapper.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifImageDescUtils.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegExtn.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegImage.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifOpenFile.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifStripImage.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTagEntry.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTags.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifIJGWrapper.cpp" : \
+	"..\..\jpeg\jpeg-6b\jconfig.h"\
+	"..\..\jpeg\jpeg-6b\jerror.h"\
+	"..\..\jpeg\jpeg-6b\jmorecfg.h"\
+	"..\..\jpeg\jpeg-6b\jpegint.h"\
+	"..\..\jpeg\jpeg-6b\jpeglib.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifHuffmanTable.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIJGWrapper.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIJGWriteFrame.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegExtn.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifIJGWriteFrame.c" : \
+	"..\..\jpeg\jpeg-6b\jconfig.h"\
+	"..\..\jpeg\jpeg-6b\jerror.h"\
+	"..\..\jpeg\jpeg-6b\jinclude.h"\
+	"..\..\jpeg\jpeg-6b\jmorecfg.h"\
+	"..\..\jpeg\jpeg-6b\jpegint.h"\
+	"..\..\jpeg\jpeg-6b\jpeglib.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifImageDescUtils.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifImageDescUtils.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifImageFile.cpp" : \
+	"..\..\jpeg\jpeg-6b\jconfig.h"\
+	"..\..\jpeg\jpeg-6b\jmorecfg.h"\
+	"..\..\jpeg\jpeg-6b\jpeglib.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifApp0Seg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegManager.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegment.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComMarker.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifHuffmanTable.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIFD.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIJGWrapper.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifImageFile.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegExtn.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegImage.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifOpenFile.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifRawAppSeg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTagEntry.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTags.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTiffAppSeg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifImageFileRead.cpp" : \
+	"..\..\jpeg\jpeg-6b\jconfig.h"\
+	"..\..\jpeg\jpeg-6b\jmorecfg.h"\
+	"..\..\jpeg\jpeg-6b\jpeglib.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifApp0Seg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegManager.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegment.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComMarker.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifHuffmanTable.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIFD.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIJGWrapper.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifImageFile.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifImageFileIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegExtn.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegImage.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifOpenFile.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifRawAppSeg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTagEntry.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTags.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTiffAppSeg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifImageFileWrite.cpp" : \
+	"..\..\jpeg\jpeg-6b\jconfig.h"\
+	"..\..\jpeg\jpeg-6b\jmorecfg.h"\
+	"..\..\jpeg\jpeg-6b\jpeglib.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifApp0Seg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegManager.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegment.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComMarker.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifHuffmanTable.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIFD.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIJGWrapper.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifImageFile.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifImageFileIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegExtn.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegImage.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifOpenFile.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifRawAppSeg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTagEntry.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTags.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTiffAppSeg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifFileIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifMemoryIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegDataDst.cpp" : \
+	"..\..\jpeg\jpeg-6b\jconfig.h"\
+	"..\..\jpeg\jpeg-6b\jerror.h"\
+	"..\..\jpeg\jpeg-6b\jmorecfg.h"\
+	"..\..\jpeg\jpeg-6b\jpeglib.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegExtn.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegDataSrc.cpp" : \
+	"..\..\jpeg\jpeg-6b\jconfig.h"\
+	"..\..\jpeg\jpeg-6b\jerror.h"\
+	"..\..\jpeg\jpeg-6b\jmorecfg.h"\
+	"..\..\jpeg\jpeg-6b\jpeglib.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegExtn.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegImage.cpp" : \
+	"..\..\jpeg\jpeg-6b\jconfig.h"\
+	"..\..\jpeg\jpeg-6b\jmorecfg.h"\
+	"..\..\jpeg\jpeg-6b\jpeglib.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifHuffmanTable.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIJGWrapper.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegExtn.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegImage.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifJpegTables.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifOpenFile.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifMemoryIO.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifMemoryIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifMisc.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifMisc.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifOpenFile.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifOpenFile.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifRawAppSeg.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegment.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifRawAppSeg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifStripImage.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIFD.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifStripImage.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTagEntry.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTags.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	
+
+"..\..\jpeg\openexif-2_0_1-src\src\ExifTiffAppSeg.cpp" : \
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifAppSegment.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifComp.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifConf.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifDefs.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifErrorCodes.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIFD.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifIO.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTagEntry.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTags.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTiffAppSeg.h"\
+	"..\..\jpeg\openexif-2_0_1-src\src\ExifTypeDefs.h"\
+	

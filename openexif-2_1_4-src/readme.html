@@ -1,0 +1,126 @@
+<HTML>
+<HEAD>
+<TITLE>ReadMe for OpenExif</TITLE>
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080">
+
+<P><HR></P>
+<H2>ReadMe: Open Exif Toolkit</H2>
+<P ALIGN="CENTER">Version: 1.8 <BR>
+Date: June 30, 2004 </P>
+<P><HR></P>
+<P ALIGN="CENTER">COPYRIGHT: <BR>
+Copyright (c) Eastman Kodak Company, 2002 - 2004. All Rights Reserved. </P>
+<P><HR></P>
+<P><BR>
+&nbsp; </P>
+<U><H3>Contents</H3>
+
+<UL>
+</U><LI><A HREF="#introduction">Introduction</A> </LI>
+<LI><A HREF="#Download">Download</A> </LI>
+<LI><A HREF="#BuildNote">Build Note</A> </LI>
+
+<UL>
+<LI><A HREF="#BuildingOnWindows">Building On Windows</A> </LI>
+<LI><A HREF="#BuildingOnSolarisOrLinux">Building On Unix/Linux</A> </LI>
+</UL>
+
+<U><H3><A NAME="introduction"></A>Introduction</H3>
+
+</U><P>OpenExif is an object-oriented interface to Exif formated JPEG image files.
+The toolkit allows creating, reading, and modifying the metadata in the Exif file.
+It also provides means of getting and setting the main image and the thumbnail
+image. OpenExif is also extensible, and Application segments can be added.</P>
+<H4>Toolkit features</H4>
+
+<UL>
+<LI>Source code available under Open Source license enables users to contribute to the toolkit </LI>
+<LI>Open source license allows for toolkit usage in commercial applications </LI>
+<LI>Provides an extensible framework for integrating other compression schemes. </LI>
+<LI>Provides an extensible framework for Application Segments allowing users to implement
+their own private application segments and register them in the toolkit.</LI>
+</UL>
+
+<H4>Platforms</H4>
+
+<UL>
+<LI>Win32 using VC6, VC7.0 or VC7.1</LI>
+<LI>Unix/Linux/MacOSX using Gnu gcc</LI>
+</UL>
+
+<U><H3><A NAME="Download"></A>Download</H3>
+</U><P>OpenExif is available for download in source distributions below:</P>
+
+<UL>
+<LI>openexif-version_number-src.zip: source distribution for all platforms supported</LI>
+</UL>
+
+<P ALIGN="CENTER"></div></P>
+
+<U><H3><A NAME="API">Build Note<A NAME="BuildNote"></A></A></H3>
+</U><H3>Building on Windows with VC6 or VC7 (.Net)<A NAME="BuildingOnWindows"></A></H3>
+<P>Building openexif requires:</P>
+
+<UL>
+<LI>NT 3.51 or higher, 98, 2000, XP.</LI>
+<LI>VC6, VC7.0, VC7.1</LI>
+</UL>
+
+<P> Download the IJG Jpeg toolkit from the <A HREF="http://www.ijg.org">IJG website</A> or the <A HREF="http://openexif.sf.net">OpenExif website</A>.
+You will need to copy (or rename) jconfig.vc to jconfig.h. You may also need to change the definition of INT32 in jmorecfg.h
+from long to signed int to get rid of a redefinition error when building OpenExif. Then, build it with VC's nMake (prompt> nMake makefile.vc). This
+will create libjpeg.lib. OpenExif is expecting jpeg.lib, so make a copy of libjpeg.lib and rename it to jpeg.lib (or change OpenExif's project settings
+later).</P
+
+<P>Set environment variable JPEGROOT to point to the Jpeg toolkit (for example, C:\Toolkits\jpeg-6b).</P>
+
+<P>To build openexif from its source , you will need to open the workspaces containing the projects. 
+For VC6, they are:</P>
+
+<UL>
+<LI><FONT FACE="Courier,Courier New">projects\Win32\Vc6.0\BuildAllStatic.dsw</FONT>: for building static libraries and its test program. </LI>
+<LI><FONT FACE="Courier,Courier New">projects\Win32\Vc6.0\BuildAllDynamic.dsw</FONT>: for building dlls and its test program.</LI></UL>
+
+<P>For VC7.0 or VC7.1, they are:</P>
+
+<UL>
+<LI><FONT FACE="Courier,Courier New">projects\Win32\VC7.0\BuildAllStatic.sln</FONT>: for building static libraries and its test program. </LI>
+<LI><FONT FACE="Courier,Courier New">projects\Win32\VC7.0\BuildAllDynamic.sln</FONT>: for building dlls and its test program.</LI>
+</UL>
+
+<P>If you want to include the openexif project into your application's workspace, you need to pick up
+the project files. For VC6:</P>
+
+<UL>
+<LI><FONT FACE="Courier,Courier New">projects\Win32\Vc6.0\OpenExif.dsp</FONT>: for building static libraries. </LI>
+<LI><FONT FACE="Courier,Courier New">projects\Win32\Vc6.0\OpenExifi.dsp</FONT>: for building dlls.</LI></UL>
+
+<P>For VC7.0 or VC7.1:</P>
+<UL>
+<LI><FONT FACE="Courier,Courier New">projects\Win32\VC7.0\OpenExif.vcproj</FONT>: for building static libraries. </LI>
+<LI><FONT FACE="Courier,Courier New">projects\Win32\VC7.0\OpenExifi.vcproj</FONT>: for building dlls.</LI></UL>
+
+</FONT><H3>Building on Unix/Linux/MacOSX<A NAME="BuildingOnSolarisOrLinux"></A></H3>
+<P>For building openexif the following compilers and toolks have been tested and are supported:</P>
+
+<UL>
+<LI>GNU g++ 2.95.3 and greater</LI>
+<LI>autoconf 2.53, automake 1.6.3, libtool 1.4.2 and m4 1.4.1</LI></UL>
+
+<P>The steps are:</P>
+
+<UL>
+<LI>Download the IJG Jpeg toolkit from the <A HREF="http://www.ijg.org">IJG website</A> or the <A HREF="http://openexif.sf.net">OpenExif website</A>.
+Then configure and build it: (prompt$ ./configure --prefix='somepathtoinstall', prompt$ make, prompt$ make install). NOTE: Some systems already have
+the IJG Jpeg toolkit installed. Search for jpeglib.h in /usr/include, for example.
+<LI>Set environment variable JPEGROOT to point to your Jpeg toolkit. For example, if your system already has jpeglib.h in /usr/include and libjpeg.a in /usr/lib, 
+then set JPEGROOT to /usr. Otherwise, set JPEGROOT to point to the directory where you installed the IJG Jpeg toolkit.</LI>
+<LI>cd to the root directory of openexiff. </LI>
+<LI>type ./configure and then ./make</LI></UL>
+
+<P><HR></P>
+<P ALIGN="CENTER">Copyright &copy; Eastman Kodak Company, 1999-2004. All Rights Reserved. <BR>
+&nbsp; </P>
+<P><HR></P></BODY>
+</HTML>

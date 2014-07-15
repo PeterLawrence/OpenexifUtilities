@@ -1,0 +1,114 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by JPEGRename.rc
+//
+#define IDC_MYICON                      2
+#define IDUNDO                          3
+#define IDUNDOABORT                     3
+#define IDTEST                          4
+#define IDD_TIMESTAMPWIN_DIALOG         102
+#define IDD_ABOUTBOX                    103
+#define IDS_APP_TITLE                   103
+#define IDM_ABOUT                       104
+#define IDM_EXIT                        105
+#define IDS_HELLO                       106
+#define IDI_TIMESTAMPWIN                107
+#define IDI_SMALL                       108
+#define IDC_TIMESTAMPWIN                109
+#define IDR_MAINFRAME                   128
+#define IDD_DIALOG1                     130
+#define IDD_DATE_DIALOG                 130
+#define IDD_MAIN_DIALOG                 130
+#define IDC_SPIN1                       1000
+#define IDC_SPIN_HOURS                  1000
+#define IDC_SPIN2                       1001
+#define IDC_SPIN_MINS                   1001
+#define IDC_SPIN3                       1002
+#define IDC_SPIN_SECS                   1002
+#define IDC_SPIN4                       1003
+#define IDC_SPIN_DAYS                   1003
+#define IDC_SPIN5                       1004
+#define IDC_SPIN_YEARS                  1004
+#define IDC_SPIN_MONTHS                 1005
+#define IDC_HoursEdit                   1006
+#define IDC_Hours                       1007
+#define IDC_Mins2                       1008
+#define IDC_Secs                        1009
+#define IDC_Days                        1010
+#define IDC_Years                       1011
+#define IDC_HoursEdit2                  1012
+#define IDC_MinsEdit                    1012
+#define IDC_HoursEdit3                  1013
+#define IDC_SecsEdit                    1013
+#define IDC_HoursEdit4                  1014
+#define IDC_DaysEdit                    1014
+#define IDC_HoursEdit5                  1015
+#define IDC_YearsEdit                   1015
+#define IDC_Months                      1016
+#define IDC_MonthsEdit                  1017
+#define IDC_EDITBOX                     1022
+#define IDC_Accessed                    1023
+#define IDC_Digitized                   1023
+#define IDC_SrcDigitized                1023
+#define IDC_Creation                    1024
+#define IDC_SrcCreation                 1024
+#define IDC_Modified                    1025
+#define IDC_SrcModified                 1025
+#define IDC_Attributes                  1026
+#define IDC_TimeChange                  1027
+#define IDC_FileDateAttributeBox        1027
+#define IDC_AttributeCtrlBox            1027
+#define IDC_CurrentTime                 1028
+#define IDC_SrcFileAccessed             1028
+#define IDC_FileNameFormatBox           1028
+#define IDC_SrcFileModified             1029
+#define IDC_SrcFileCreation             1030
+#define IDC_Attributes2                 1031
+#define IDC_SetDigitized                1031
+#define IDC_SetModified                 1032
+#define IDC_SetCreation                 1033
+#define IDC_SetFileAccessed             1034
+#define IDC_SetFileModified             1035
+#define IDC_SetFileCreation             1036
+#define IDC_FileAttrbSrc                1037
+#define IDC_JPEGAttrbSrc                1038
+#define IDC_FileAttrbSrc2               1039
+#define IDC_FileAttrbSet                1039
+#define IDC_JPEGAttrbSrc2               1040
+#define IDC_JPEGAttrbSet                1040
+#define IDC_FileDateAttribute           1042
+#define IDC_JPEGDateAttribute           1043
+#define IDC_Field1                      1044
+#define IDC_FieldText1                  1045
+#define IDC_Field2                      1046
+#define IDC_FieldText2                  1047
+#define IDC_Field3                      1048
+#define IDC_FieldText3                  1049
+#define IDC_Field4                      1050
+#define IDC_FieldText4                  1051
+#define IDC_Field5                      1052
+#define IDC_FieldText5                  1053
+#define IDC_UserText                    1054
+#define IDRENAME                        1055
+#define IDC_FieldSpacing                1056
+#define IDC_FieldSpacingT               1057
+#define IDC_DateFormat                  1058
+#define IDC_DateFormatT                 1059
+#define IDC_TimeFormat                  1060
+#define IDC_TimeFormatT                 1061
+#define IDC_UserStrinfT                 1062
+#define IDC_CounterT2                   1063
+#define IDC_Counter                     1064
+#define IDM_SETDATE                     32771
+#define IDC_STATIC                      -1
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        132
+#define _APS_NEXT_COMMAND_VALUE         32772
+#define _APS_NEXT_CONTROL_VALUE         1056
+#define _APS_NEXT_SYMED_VALUE           110
+#endif
+#endif

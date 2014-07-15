@@ -1,0 +1,322 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_TIMESTAMPWIN        ICON    DISCARDABLE     "JPEGRename.ICO"
+IDI_SMALL               ICON    DISCARDABLE     "SMALL.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  22, 17, 230, 75
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_TIMESTAMPWIN,IDC_MYICON,14,9,20,20
+    LTEXT           "JPEG Rename Version 1.0.6",IDC_STATIC,49,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "By Peter J Lawrence",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "TimeStampWin"
+    IDS_HELLO               "Hello World!"
+    IDC_TIMESTAMPWIN        "TIMESTAMPWIN"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN_DIALOG DIALOGEX 0, 0, 254, 260
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "JPEGRename"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Attribute Control....",IDC_AttributeCtrlBox,6,3,119,105
+    RTEXT           "Date Attribute:",IDC_JPEGDateAttribute,8,15,48,9
+    COMBOBOX        IDC_FileDateAttribute,57,13,65,58,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_FieldSpacing,57,28,65,57,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Field Spacing:",IDC_FieldSpacingT,7,29,49,9
+    COMBOBOX        IDC_DateFormat,56,43,67,60,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Date format:",IDC_DateFormatT,14,45,41,9
+    COMBOBOX        IDC_TimeFormat,56,58,67,61,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Time format:",IDC_TimeFormatT,13,60,42,9
+    RTEXT           "User Text:",IDC_UserStrinfT,16,75,39,9
+    EDITTEXT        IDC_UserText,56,73,66,14,ES_AUTOHSCROLL
+    RTEXT           "Counter:",IDC_CounterT2,18,92,37,9
+    EDITTEXT        IDC_Counter,56,90,66,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Filename Format....",IDC_FileNameFormatBox,125,3,125,
+                    105
+    COMBOBOX        IDC_Field1,180,13,67,59,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "First part:",IDC_FieldText1,128,15,50,9
+    COMBOBOX        IDC_Field2,180,28,67,61,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Second part:",IDC_FieldText2,129,30,49,9
+    COMBOBOX        IDC_Field3,180,43,67,64,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Third part:",IDC_FieldText3,129,45,49,9
+    COMBOBOX        IDC_Field4,180,58,67,67,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Fourth part:",IDC_FieldText4,129,59,49,9
+    COMBOBOX        IDC_Field5,180,73,67,68,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Fifth part:",IDC_FieldText5,129,75,49,9
+    EDITTEXT        IDC_EDITBOX,6,112,244,127,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_VSCROLL,WS_EX_LEFTSCROLLBAR
+    DEFPUSHBUTTON   "Rename Files",IDRENAME,6,243,60,13
+    PUSHBUTTON      "Test",IDTEST,68,243,59,13
+    PUSHBUTTON      "Undo",IDUNDOABORT,129,243,59,13
+    PUSHBUTTON      "Exit",IDCANCEL,191,243,59,13
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 256
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MAIN_DIALOG DLGINIT
+BEGIN
+    IDC_FileDateAttribute, 0x403, 12, 0
+0x6850, 0x746f, 0x206f, 0x6154, 0x656b, 0x006e, 
+    IDC_FileDateAttribute, 0x403, 14, 0
+0x6946, 0x656c, 0x4320, 0x6572, 0x7461, 0x6f69, 0x006e, 
+    IDC_FileDateAttribute, 0x403, 18, 0
+0x6946, 0x656c, 0x4d20, 0x646f, 0x6669, 0x6369, 0x7461, 0x6f69, 0x006e, 
+
+    IDC_FieldSpacing, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_FieldSpacing, 0x403, 6, 0
+0x7053, 0x6361, 0x0065, 
+    IDC_FieldSpacing, 0x403, 5, 0
+0x6144, 0x6873, "\000" 
+    IDC_FieldSpacing, 0x403, 11, 0
+0x6e55, 0x6564, 0x7372, 0x6f63, 0x6572, "\000" 
+    IDC_DateFormat, 0x403, 9, 0
+0x5959, 0x5959, 0x4d4d, 0x4444, "\000" 
+    IDC_DateFormat, 0x403, 7, 0
+0x5959, 0x5959, 0x4d4d, "\000" 
+    IDC_DateFormat, 0x403, 11, 0
+0x5959, 0x5959, 0x4d2d, 0x2d4d, 0x4444, "\000" 
+    IDC_DateFormat, 0x403, 8, 0
+0x5959, 0x5959, 0x4d2d, 0x004d, 
+    IDC_DateFormat, 0x403, 10, 0
+0x4444, 0x4d4d, 0x594d, 0x5959, 0x0059, 
+    IDC_DateFormat, 0x403, 6, 0
+0x4444, 0x4d4d, 0x004d, 
+    IDC_DateFormat, 0x403, 1, 0
+"\000" 
+    IDC_DateFormat, 0x403, 1, 0
+"\000" 
+    IDC_TimeFormat, 0x403, 10, 0
+0x4848, 0x4d68, 0x6d4d, 0x5353, 0x0073, 
+    IDC_TimeFormat, 0x403, 7, 0
+0x4848, 0x4d68, 0x734d, "\000" 
+    IDC_TimeFormat, 0x403, 9, 0
+0x4848, 0x4d2d, 0x2d4d, 0x5353, "\000" 
+    IDC_TimeFormat, 0x403, 6, 0
+0x4848, 0x4d2d, 0x004d, 
+    IDC_TimeFormat, 0x403, 9, 0
+0x4848, 0x4d20, 0x204d, 0x5353, "\000" 
+    IDC_TimeFormat, 0x403, 6, 0
+0x4848, 0x4d20, 0x004d, 
+    IDC_TimeFormat, 0x403, 16, 0
+0x2d48, 0x784d, 0x206d, 0x3128, 0x2032, 0x6f68, 0x7275, 0x0029, 
+    IDC_TimeFormat, 0x403, 15, 0
+0x2048, 0x784d, 0x286d, 0x3231, 0x6820, 0x756f, 0x2972, "\000" 
+    IDC_TimeFormat, 0x403, 1, 0
+"\000" 
+    IDC_Field1, 0x403, 5, 0
+0x6144, 0x6574, "\000" 
+    IDC_Field1, 0x403, 5, 0
+0x6954, 0x656d, "\000" 
+    IDC_Field1, 0x403, 11, 0
+0x6946, 0x6c6c, 0x2065, 0x614e, 0x656d, "\000" 
+    IDC_Field1, 0x403, 10, 0
+0x7355, 0x7265, 0x5420, 0x7865, 0x0074, 
+    IDC_Field1, 0x403, 6, 0
+0x6f43, 0x6e75, 0x0074, 
+    IDC_Field2, 0x403, 5, 0
+0x6144, 0x6574, "\000" 
+    IDC_Field2, 0x403, 5, 0
+0x6954, 0x656d, "\000" 
+    IDC_Field2, 0x403, 11, 0
+0x6946, 0x6c6c, 0x2065, 0x614e, 0x656d, "\000" 
+    IDC_Field2, 0x403, 10, 0
+0x7355, 0x7265, 0x5420, 0x7865, 0x0074, 
+    IDC_Field2, 0x403, 6, 0
+0x6f43, 0x6e75, 0x0074, 
+    IDC_Field2, 0x403, 9, 0
+0x6f4e, 0x2074, 0x7355, 0x6465, "\000" 
+    IDC_Field3, 0x403, 5, 0
+0x6144, 0x6574, "\000" 
+    IDC_Field3, 0x403, 5, 0
+0x6954, 0x656d, "\000" 
+    IDC_Field3, 0x403, 11, 0
+0x6946, 0x6c6c, 0x2065, 0x614e, 0x656d, "\000" 
+    IDC_Field3, 0x403, 10, 0
+0x7355, 0x7265, 0x5420, 0x7865, 0x0074, 
+    IDC_Field3, 0x403, 6, 0
+0x6f43, 0x6e75, 0x0074, 
+    IDC_Field3, 0x403, 9, 0
+0x6f4e, 0x2074, 0x7355, 0x6465, "\000" 
+    IDC_Field4, 0x403, 5, 0
+0x6144, 0x6574, "\000" 
+    IDC_Field4, 0x403, 5, 0
+0x6954, 0x656d, "\000" 
+    IDC_Field4, 0x403, 11, 0
+0x6946, 0x6c6c, 0x2065, 0x614e, 0x656d, "\000" 
+    IDC_Field4, 0x403, 10, 0
+0x7355, 0x7265, 0x5420, 0x7865, 0x0074, 
+    IDC_Field4, 0x403, 6, 0
+0x6f43, 0x6e75, 0x0074, 
+    IDC_Field4, 0x403, 9, 0
+0x6f4e, 0x2074, 0x7355, 0x6465, "\000" 
+    IDC_Field5, 0x403, 5, 0
+0x6144, 0x6574, "\000" 
+    IDC_Field5, 0x403, 5, 0
+0x6954, 0x656d, "\000" 
+    IDC_Field5, 0x403, 11, 0
+0x6946, 0x6c6c, 0x2065, 0x614e, 0x656d, "\000" 
+    IDC_Field5, 0x403, 10, 0
+0x7355, 0x7265, 0x5420, 0x7865, 0x0074, 
+    IDC_Field5, 0x403, 6, 0
+0x6f43, 0x6e75, 0x0074, 
+    IDC_Field5, 0x403, 9, 0
+0x6f4e, 0x2074, 0x7355, 0x6465, "\000" 
+    0
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

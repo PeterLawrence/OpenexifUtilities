@@ -1,0 +1,264 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_TIMESTAMPWIN        ICON    DISCARDABLE     "TimeStampWin.ICO"
+IDI_SMALL               ICON    DISCARDABLE     "SMALL.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_TIMESTAMPWIN ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  22, 17, 230, 75
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_TIMESTAMPWIN,IDC_MYICON,14,9,20,20
+    LTEXT           "TimeStampWin Version 1.0",IDC_STATIC,49,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "By Peter J Lawrence",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "TimeStampWin"
+    IDS_HELLO               "Hello World!"
+    IDC_TIMESTAMPWIN        "TIMESTAMPWIN"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DATE_DIALOG DIALOGEX 0, 0, 240, 247
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+CAPTION "WinJPEGTimeStamp"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CHECKBOX        "Digitized",IDC_Digitized,15,18,43,10
+    CHECKBOX        "Modified",IDC_Modified,68,18,43,10
+    CHECKBOX        "Creation",IDC_Creation,116,18,42,10
+    CHECKBOX        "Use Current Time",IDC_CurrentTime,164,18,69,10
+    LTEXT           "Hours",IDC_Hours,16,46,20,8
+    LTEXT           "Mins",IDC_Mins2,53,46,16,8
+    LTEXT           "Secs",IDC_Secs,88,46,17,8
+    LTEXT           "Days",IDC_Days,123,46,17,8
+    LTEXT           "Months",IDC_Months,161,46,24,8
+    LTEXT           "Years",IDC_Years,196,46,19,8
+    EDITTEXT        IDC_HoursEdit,15,58,33,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_HOURS,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,37,58,12,
+                    14
+    EDITTEXT        IDC_MinsEdit,51,58,34,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_MINS,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,73,58,12,
+                    14
+    EDITTEXT        IDC_SecsEdit,86,58,34,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_SECS,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,108,58,12,
+                    14
+    EDITTEXT        IDC_DaysEdit,122,58,33,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_DAYS,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,58,12,
+                    14
+    EDITTEXT        IDC_MonthsEdit,159,58,33,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_MONTHS,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,181,58,12,14
+    EDITTEXT        IDC_YearsEdit,195,58,34,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN_YEARS,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY,216,58,12,14
+    EDITTEXT        IDC_EDITBOX,6,79,229,148,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | WS_VSCROLL,WS_EX_LEFTSCROLLBAR
+    DEFPUSHBUTTON   "Select Files",IDOK,15,230,65,13
+    PUSHBUTTON      "Undo",IDUNDOABORT,87,230,68,13
+    PUSHBUTTON      "Exit",IDCANCEL,161,230,74,13
+    GROUPBOX        "JPEG EXIF Time Attributes to change.....",
+                    IDC_Attributes,6,7,153,29
+    GROUPBOX        "Time to Add/Subtract....",IDC_TimeChange,6,38,229,38
+    GROUPBOX        "Time Control.....",IDC_Attributes2,160,7,75,29
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DATE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "University of Greenwich\0"
+            VALUE "FileDescription", "WinJPEGTimeStamp\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "WinJPEGTimeStamp\0"
+            VALUE "LegalCopyright", "Copyright © 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "WinJPEGTimeStamp.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "University of Greenwich WinJPEGTimeStamp\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

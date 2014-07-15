@@ -1,0 +1,405 @@
+                     OpenExif Release Note (version 2.1.4)
+                                01/26/2010
+
+I. Recent changes or Bugs Fixed in this release
+- Fixed: crashes related to images missing certain metadata items. 
+- Fixed: Build issues related to other applications including IJG jpeg lib. 
+
+II. New Features
+
+III. Known Bugs and Limitations
+- App2 (Audio) is not implemented, but can be accessed as raw data.
+- ICC Profile limitations (Not verified).
+- Any data intentionally hidden is overwritten in R/W mode.
+
+==============================================================================
+                     OpenExif Release Note (version 2.1.3)
+                                01/05/2010
+
+I. Recent changes or Bugs Fixed in this release
+- Fixed: Windows config file. 
+- Fixed: crashes related to malformed images. 
+
+II. New Features
+- New License -- OSI approved BSD.
+
+III. Known Bugs and Limitations
+- App2 (Audio) is not implemented, but can be accessed as raw data.
+- ICC Profile limitations (Not verified).
+- Any data intentionally hidden is overwritten in R/W mode.
+
+==============================================================================
+                     OpenExif Release Note (version 2.1.2)
+                                09/12/2009
+
+I. Recent changes or Bugs Fixed in this release
+- Fixed: VC9 project files
+
+II. New Features
+- New License -- OSI approved BSD.
+
+III. Known Bugs and Limitations
+- App2 (Audio) is not implemented, but can be accessed as raw data.
+- ICC Profile limitations (Not verified).
+- Any data intentionally hidden is overwritten in R/W mode.
+
+==============================================================================
+                     OpenExif Release Note (version 2.1.1)
+                                07/13/2009
+
+I. Recent changes or Bugs Fixed in this release
+- Fixed: Crash on bad IFD pointer types
+- Fixed: Potential bad IFD count.
+
+II. New Features
+
+III. Known Bugs and Limitations
+- App2 (Audio) is not implemented, but can be accessed as raw data.
+- ICC Profile limitations (Not verified).
+- Any data intentionally hidden is overwritten in R/W mode.
+
+==============================================================================
+                     OpenExif Release Note (version 2.1.0)
+                                02/13/2009
+
+I. Recent changes or Bugs Fixed in this release
+- REMOVED: IJG jpeglib dependency.
+- REMOVED: Support for any Microsoft compiler earlier than VS2008
+- Fixed: many minor bugs.
+
+II. New Features
+
+III. Known Bugs and Limitations
+- App2 (Audio) is not implemented, but can be accessed as raw data.
+- ICC Profile limitations (Not verified).
+- Any data intentionally hidden is overwritten in R/W mode.
+
+==============================================================================
+                     OpenExif Release Note (version 2.0.2)
+                                03/07/2006
+
+I. Recent changes or Bugs Fixed in this release
+- Fixed: Better 64-bit OS support
+- Fixed: Faster parsing of EXIF header.
+
+II. New Features
+
+III. Known Bugs and Limitations
+- App2 (Audio) is not implemented, but can be accessed as raw data.
+- ICC Profile limitations (Not verified).
+- Any data intentionally hidden is overwritten in R/W mode.
+
+==============================================================================
+                     OpenExif Release Note (version 2.0.1)
+                                03/07/2006
+
+I. Recent changes or Bugs Fixed in this release
+- Fixed: Can now read files even if there is dead space between markers
+- Fixed: tmpnam warnings
+
+II. New Features
+- Works with GCC 4.1 and Windows Visual Studio 2005
+- More performance updates and memory leaks fixed.
+
+III. Known Bugs and Limitations
+- App2 (Audio) is not implemented, but can be accessed as raw data.
+- ICC Profile limitations (Not verified).
+- Any data intentionally hidden is overwritten in R/W mode.
+
+==============================================================================
+                     OpenExif Release Note (version 2.0.0)
+                                07/31/2005
+
+I. Recent changes or Bugs Fixed in this release
+- Fixed: IFDs that reference IFDs already read
+- Fixed: Factory and map issues
+- Fixed: Not reading segments that happen to be after the DQT or DHT marker.
+- Dropped: Support for Microsoft Visual Studio 6.0
+
+II. New Features
+- New method of reading metadata
+- Com Segments now handled
+- Works with GCC 4.0 and Windows Visual Studio 2005 Beta 2 
+- More performance updates and memory leaks fixed.
+
+III. Known Bugs and Limitations
+- App2 (Audio) is not implemented, but can be accessed as raw data.
+- ICC Profile limitations (Not verified).
+- Any data intentionally hidden is overwritten in R/W mode.
+
+==============================================================================
+                     OpenExif Release Note (version 1.9.2)
+                                04/11/2005
+
+I. Recent changes or Bugs Fixed in this release
+- Fixed: Windows compile errors on some platforms
+- Fixed: Overwriting of DHT marker in R/W mode
+- Fixed: Odd-byte ExifIFD offsets.
+- Fixed: App3 Creation errors in R/W mode.
+  
+II. New Features
+
+III. Known Bugs and Limitations
+- App2 is not implemented, but can be accessed as raw data.
+- ICC Profile limitations.
+- Not reading Segments that happen to be after the DQT or DHT marker.
+- Anything before the DQT, DHT or SOI marker is overwritten in R/W mode.
+
+==============================================================================
+                     OpenExif Release Note (version 1.9.1)
+                                03/14/2005
+
+I. Recent changes or Bugs Fixed in this release
+- Fixed Seg Fault while writing files.
+  
+II. New Features
+
+III. Known Bugs and Limitations
+- App2 is not implemented, but can be accessed as raw data.
+- ICC Profile limitations.
+- Not reading Application Segments that happen to be after the DQT marker.
+- Anything before the DQT or SOI marker is overwritten in read-write mode.
+  This may cause the image to become unreadable, or other data may be lost.
+- Some IFD tags and IFDs may be written on an odd byte boundary.
+
+==============================================================================
+                     OpenExif Release Note (version 1.9)
+                                03/02/2005
+
+I. Recent changes or Bugs Fixed in this release
+- Re-enabled JFIF support
+- Removed some unnecessary temporary file usage
+- Fixed Q-Table writing
+- Outputs only one DQT and DHT marker for DCF compliance
+  
+II. New Features
+
+III. Known Bugs and Limitations
+- App2 is not implemented, but can be accessed as raw data.
+- ICC Profile limitations.
+- Not reading Application Segments that happen to be after the DQT marker.
+- Anything before the DQT or SOI marker is overwritten in read-write mode.
+  This may cause the image to become unreadable, or other data may be lost.
+- Some IFD tags and IFDs may be written on an odd byte boundary.
+
+==============================================================================
+
+                     OpenExif Release Note (version 1.8)
+                                06/21/2004
+
+I. Recent changes or Bugs Fixed in this release
+- Fixed fatal memory leak when reading an IFD that contained zero entries
+- Fixed temporary file usage on Windows builds to use the _tempnam function 
+  allowing unpriviliged users to create temporary files.
+  
+II. New Features
+
+III. Known Bugs and Limitations
+- App2 is not implemented, but can be accessed as raw data.
+- ICC Profile limitations.
+- Not reading Application Segments that happen to be after the DQT marker.
+
+==============================================================================
+
+                     OpenExif Release Note (version 1.7)
+                                01/28/2004
+
+I. Recent changes or Bugs Fixed in this release
+
+II. New Features
+- Added functionality in ExifImageFile to remove metadata tag entries.
+
+III. Known Bugs and Limitations
+- App2 is not implemented, but can be accessed as raw data.
+- ICC Profile limitations.
+- Not reading in Application Segments that happen to be after the DQT marker.
+
+==============================================================================
+
+                     OpenExif Release Note (version 1.6)
+                                12/12/2003
+                                
+I. Recent changes or Bugs Fixed in this release
+- Fixed bug related to setting the compression parameters through ExifImageFile.
+  None of the parameters set were actually being used when doing the compression
+  because of the creation of the temporary file. Now it should all work as
+  expected.
+- Fixed bug that was causing crash when certain invalid metadata was
+  encountered. (Better handling of corrupted files).
+- Other minor fixes and style changes.
+
+II. New Features
+- Now, ICC Profiles can be set through ExifImageFile (and ExifJpegImage). This
+  creates them in an application segment 2 (0xFFE2) with "ICC_PROFILE" as the
+  identifier. This is still a work in progress and will only work when calling
+  the setICCProfile method sometime before calling writeScanLines. If you don't
+  call writeScanLines, it won't work properly.
+- Access to horizontal and vertical sampling factors are provided by 
+  getHSamplingFactor and getVSamplingFactor methods.
+- Smoothing F=factor, progressive mode, and encoding optimization can now be
+  set through the setSmoothingFactor, setOptimization, and setProgressive
+  methods.
+
+III. Known Bugs and Limitations
+- APP2 is not implemented yet, but can be accessed as raw data.
+- ICC Profile limitations as described above.
+
+==============================================================================
+
+                        OpenExif Release Note (version 1.5)
+                                11/19/2003
+I. Recent changes or Bugs Fixed in this release
+- Many type changes for 64-bit compliance. Below is a new table with the
+mappings of Exif Types and Count to the type you need to cast ExifTagEntryT to.
+
+Type ( ExifTagEntry::getType() ) -> Count ( ExifTagEntry::getCount() ) -> ExifTagEntryT<?>
+
+EXIF_ASCII -> any -> ExifTagEntryT<string>
+EXIF_SBYTE -> 1 -> ExifTagEntryT<int8>
+EXIF_SBYTE -> grtr than 1 -> ExifTagEntryT<vector<int8> >
+EXIF_UNDEFINED -> 1 -> ExifTagEntryT<int8>
+EXIF_UNDEFINED -> grtr than 1 -> ExifTagEntryT<vector<int8> >
+EXIF_BYTE -> 1 -> ExifTagEntryT<uint8>
+EXIF_BYTE -> grtr than 1 -> ExifTagEntryT<vector<uint8> >
+EXIF_SSHORT -> 1 -> ExifTagEntryT<int16>
+EXIF_SSHORT -> grtr than 1 -> ExifTagEntryT<vector<int16> >
+EXIF_SHORT -> 1 -> ExifTagEntryT<uint16>
+EXIF_SHORT -> grtr than 1 -> ExifTagEntryT<vector<uint16> >
+EXIF_SLONG -> 1 -> ExifTagEntryT<exif_int32>
+EXIF_SLONG -> grtr than 1 -> ExifTagEntryT<vector<exif_int32> >
+EXIF_LONG -> 1 -> ExifTagEntryT<exif_uint32>
+EXIF_LONG -> grtr than 1 -> ExifTagEntryT<vector<exif_uint32> >
+EXIF_SRATIONAL -> 1 -> ExifTagEntryT<float>
+EXIF_SRATIONAL -> grtr than 1 -> ExifTagEntryT<vector<float> >
+EXIF_RATIONAL -> 1 -> ExifTagEntryT<float>
+EXIF_RATIONAL -> grtr than 1 -> ExifTagEntryT<vector<float> >
+EXIF_FLOAT -> 1 -> ExifTagEntryT<float>
+EXIF_FLOAT -> grtr than 1 -> ExifTagEntryT<vector<float> >
+EXIF_DOUBLE -> 1 -> ExifTagEntryT<double>
+EXIF_DOUBLE -> grtr than 1 -> ExifTagEntryT<vector<double> >
+
+II. New Features
+- Added method in ExifJpegImage class for setting quatization tables
+individually.
+- Now 64-bit compliant.
+
+III. Known Bugs and Limitations
+- APP2 is not implemented yet, but can be accessed as raw data.
+
+==============================================================================
+
+                        OpenExif Release Note (version 1.4)
+                                10/20/2003
+I. Recent changes or Bugs Fixed in this release
+- Better handling of invalid metadata
+- Fixed bug that limited Application Segment identifiers to 16 characters
+- Fixed byte alignment of data issue
+
+II. New Features
+
+III. Known Bugs and Limitations
+- APP2 is not implemented yet, but can be accessed as raw data.
+
+==============================================================================
+
+                        OpenExif Release Note (version 1.3)
+                                09/24/2003
+
+I. Recent changes or Bugs Fixed in this release
+- Bug fixes mostly related to changing the thumbnail from compressed to
+uncompressed and vice-versa.
+- Solved threading issues. Now toolkit is completely thread-safe.
+
+II. New Features
+- Added some validation of image related metadata. Basically making sure all
+mandatory tags are written out and tags that shouldn't be included are not 
+written out.
+
+III. Known Bugs and Limitations
+- APP2 is not implemented yet. But can be accessed as raw data
+
+===============================================================================
+
+			OpenExif Release Note (version 1.2)
+				08/18/2003
+
+I. Recent changes or Bugs Fixed in this release
+- Fixed memory leak.
+- Other minor bug fixes.
+
+II. New Features
+- Now App3 - "Meta" is implemented and its metadata can be accessed.
+- Added method for getting quantization tables in ExifJpegImage.
+- Added new example program in examples/:
+	- CreateExif -> demonstrates the creation of a new Exif image file from 
+      scratch
+
+
+III. Known Bugs and Limitations
+- APP2 is not implemented yet. But can be accessed as raw data.
+
+===============================================================================
+
+			OpenExif Release Note (version 1.1)
+				05/14/2003
+
+I. Recent changes or Bugs Fixed in this release
+- Improved handling of Exif files with bad data.
+- All application segments are now persisted.
+- Fixed bug when opening an Exif image from memory.
+- Other minor bug fixes.
+
+II. New Features
+- Improved handling of the Application Segments through a new Application
+  Segment Manager. Now all application segments are persisted.
+- New ExifRawAppSeg class, enables applications to access (get and set) the
+  raw data for all Application Segment, even if they haven't been implemented.
+- Providing example programs in examples/:
+	- AppSegDump -> shows information about the Application Segments of an
+	  Exif file
+	- ExifTagDump -> shows all the metadata entries in APP1 of an Exif
+	  file
+- Performance improvements (speed).
+- Support for VC7.1 (Visual Studio .Net 2003). Not including new project
+  files. The VC7 ones can be used and will be automatically converted.
+
+III. Known Bugs and Limitations
+- APP2 is not implemented yet. But can be accessed in as raw data.
+
+===============================================================================
+                        OpenExif Release Note (version 1.0.1)
+                                 02/13/2003
+
+I. Recent changes or Bugs Fixed in this release
+- Fixed memory leaks.
+- Major coding style improvements (Now following the PmtC++StyleGuide (Picture
+  Metadata Toolkit project).
+- Many minor bug fixes.
+- Changed the ExifImageFile class to inherit from the ExifJpegImage class
+  instead of containing it.
+- Some performance improvements.
+
+II. New Features
+- Support for VC7 (Visual Studio .Net)
+- Support for gcc 3.2
+
+III. Known Bugs and Limitations
+- In some cases all of the metadata is not persisted.
+- APP2 is not supported yet.
+
+===============================================================================
+
+			Open Exif Release Note (version 1.0)
+				12/10/2002
+
+I. Recent changes or Bugs Fixed in this release
+
+II. New Features
+- Application Segment 0 and Application Segment 1 (Tiff Application segment) are
+  supported.
+- Platforms supported: Windows, Linux, Unix (Solaris)
+
+III. Known Bugs
+- Windows Dynamic Release Build: run time errors occur when building the
+  OpenExifi project using the Multithreaded DLL run-time library and or when
+  building the testi project with Maximize Speed optimization.

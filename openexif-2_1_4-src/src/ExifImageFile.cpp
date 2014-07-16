@@ -312,6 +312,30 @@ ExifStatus ExifImageFile::close( void )
     return status ;
 }
 
+ExifStatus ExifImageFile::closeDoNotSave( void )
+{
+    ExifStatus status = EXIF_OK ;
+
+    ExifOpenFile::close() ;
+
+
+    // ***** Clean up *****
+
+    // Delete all the app segs
+    if ( mAppSegManager )
+    {
+        mAppSegManager->clear() ;
+    }
+
+    if ( mExifio )
+    {
+        delete mExifio ;
+        mExifio = NULL ;
+    }
+        
+    return status ;
+}
+
 
 ExifStatus ExifImageFile::initAfterOpen( const char* cmode )
 {

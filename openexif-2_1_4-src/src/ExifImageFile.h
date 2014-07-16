@@ -127,6 +127,9 @@ class EXIF_DECL ExifImageFile : public ExifJpegImage
         //! Close the image file, flush the image out to the file if necessary 
         virtual ExifStatus close( void );
 
+        //! Close the image file, does not flush the image out to the file
+        virtual  ExifStatus closeDoNotSave( void );
+
         /*! @name Image Pixel Interface
           This collection of methods provides access to the image pixels
           and thumbnail of the Exif image file. The uncompressed image

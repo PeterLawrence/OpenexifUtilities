@@ -6,82 +6,13 @@
 --------------------Configuration: WInJPEGDateCopy - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating command line "rc.exe /l 0x809 /fo"Debug/WInJPEGDateCopy.res" /d "_DEBUG" "D:\FreewareDevelopment\JPEGUtils\JPEGAttribSync\WInJPEGDateCopy.rc"" 
-Creating temporary file "C:\Users\lp03\AppData\Local\Temp\RSPE88.tmp" with contents
+Creating temporary file "C:\Users\lp03\AppData\Local\Temp\RSPB4BA.tmp" with contents
 [
 /nologo /MLd /W3 /Gm /GR /GX /ZI /Od /I "..\openexif-2_1_4-src\src" /I "..\openexif-2_1_4-src\src\OpenExifJpeg" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
-"D:\FreewareDevelopment\JPEGUtils\JPEGAttribSync\dlgtxtctrl.cpp"
 "D:\FreewareDevelopment\JPEGUtils\JPEGAttribSync\WInJPEGDateCopy.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jcapimin.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jcapistd.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jccoefct.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jccolor.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jcdctmgr.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jchuff.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jcinit.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jcmainct.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jcmarker.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jcmaster.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jcomapi.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jcparam.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jcphuff.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jcprepct.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jcsample.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdapimin.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdapistd.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdatadst.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdatasrc.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdcoefct.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdcolor.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jddctmgr.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdhuff.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdinput.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdmainct.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdmarker.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdmaster.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdmerge.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdphuff.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdpostct.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jdsample.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jerror.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jfdctflt.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jfdctfst.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jfdctint.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jidctflt.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jidctfst.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jidctint.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jidctred.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jmemansi.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jmemmgr.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jquant1.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jquant2.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\OpenExifJpeg\OpenExif_jutils.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifApp0Seg.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifAppSegManager.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifAppSegment.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifFileIO.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifHuffmanTable.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifIFD.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifIJGWrapper.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifIJGWriteFrame.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifImageDescUtils.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifImageFile.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifImageFileRead.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifImageFileWrite.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifInternetIO.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifIO.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifJpegDataDst.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifJpegDataSrc.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifJpegImage.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifMemoryIO.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifMisc.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifOpenFile.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifRawAppSeg.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifStripImage.cpp"
-"D:\FreewareDevelopment\JPEGUtils\openexif-2_1_4-src\src\ExifTiffAppSeg.cpp"
 ]
-Creating command line "cl.exe @C:\Users\lp03\AppData\Local\Temp\RSPE88.tmp" 
-Creating temporary file "C:\Users\lp03\AppData\Local\Temp\RSPE89.tmp" with contents
+Creating command line "cl.exe @C:\Users\lp03\AppData\Local\Temp\RSPB4BA.tmp" 
+Creating temporary file "C:\Users\lp03\AppData\Local\Temp\RSPB4CB.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/WInJPEGDateCopy.pdb" /debug /machine:I386 /out:"Debug/WInJPEGDateCopy.exe" /pdbtype:sept 
 .\Debug\dlgtxtctrl.obj
@@ -155,88 +86,12 @@ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32
 .\Debug\ExifTiffAppSeg.obj
 .\Debug\WInJPEGDateCopy.res
 ]
-Creating command line "link.exe @C:\Users\lp03\AppData\Local\Temp\RSPE89.tmp"
+Creating command line "link.exe @C:\Users\lp03\AppData\Local\Temp\RSPB4CB.tmp"
 <h3>Output Window</h3>
-Compiling resources...
 Compiling...
-dlgtxtctrl.cpp
 WInJPEGDateCopy.cpp
-OpenExif_jcapimin.cpp
-OpenExif_jcapistd.cpp
-OpenExif_jccoefct.cpp
-OpenExif_jccolor.cpp
-OpenExif_jcdctmgr.cpp
-OpenExif_jchuff.cpp
-OpenExif_jcinit.cpp
-OpenExif_jcmainct.cpp
-OpenExif_jcmarker.cpp
-OpenExif_jcmaster.cpp
-OpenExif_jcomapi.cpp
-OpenExif_jcparam.cpp
-OpenExif_jcphuff.cpp
-OpenExif_jcprepct.cpp
-OpenExif_jcsample.cpp
-OpenExif_jdapimin.cpp
-OpenExif_jdapistd.cpp
-OpenExif_jdatadst.cpp
-Generating Code...
-Compiling...
-OpenExif_jdatasrc.cpp
-OpenExif_jdcoefct.cpp
-OpenExif_jdcolor.cpp
-OpenExif_jddctmgr.cpp
-OpenExif_jdhuff.cpp
-OpenExif_jdinput.cpp
-OpenExif_jdmainct.cpp
-OpenExif_jdmarker.cpp
-OpenExif_jdmaster.cpp
-OpenExif_jdmerge.cpp
-OpenExif_jdphuff.cpp
-OpenExif_jdpostct.cpp
-OpenExif_jdsample.cpp
-OpenExif_jerror.cpp
-OpenExif_jfdctflt.cpp
-OpenExif_jfdctfst.cpp
-OpenExif_jfdctint.cpp
-OpenExif_jidctflt.cpp
-OpenExif_jidctfst.cpp
-OpenExif_jidctint.cpp
-Generating Code...
-Compiling...
-OpenExif_jidctred.cpp
-OpenExif_jmemansi.cpp
-OpenExif_jmemmgr.cpp
-OpenExif_jquant1.cpp
-OpenExif_jquant2.cpp
-OpenExif_jutils.cpp
-ExifApp0Seg.cpp
-ExifAppSegManager.cpp
-ExifAppSegment.cpp
-ExifFileIO.cpp
-ExifHuffmanTable.cpp
-ExifIFD.cpp
-ExifIJGWrapper.cpp
-ExifIJGWriteFrame.cpp
-ExifImageDescUtils.cpp
-ExifImageFile.cpp
-ExifImageFileRead.cpp
-ExifImageFileWrite.cpp
-ExifInternetIO.cpp
-ExifIO.cpp
-Generating Code...
-Compiling...
-ExifJpegDataDst.cpp
-ExifJpegDataSrc.cpp
-ExifJpegImage.cpp
-ExifMemoryIO.cpp
-ExifMisc.cpp
-ExifOpenFile.cpp
-ExifRawAppSeg.cpp
-ExifStripImage.cpp
-ExifTiffAppSeg.cpp
-Generating Code...
 Linking...
-Creating temporary file "C:\Users\lp03\AppData\Local\Temp\RSP290C.tmp" with contents
+Creating temporary file "C:\Users\lp03\AppData\Local\Temp\RSPB864.tmp" with contents
 [
 /nologo /o"Debug/WInJPEGDateCopy.bsc" 
 .\Debug\dlgtxtctrl.sbr
@@ -308,7 +163,7 @@ Creating temporary file "C:\Users\lp03\AppData\Local\Temp\RSP290C.tmp" with cont
 .\Debug\ExifRawAppSeg.sbr
 .\Debug\ExifStripImage.sbr
 .\Debug\ExifTiffAppSeg.sbr]
-Creating command line "bscmake.exe @C:\Users\lp03\AppData\Local\Temp\RSP290C.tmp"
+Creating command line "bscmake.exe @C:\Users\lp03\AppData\Local\Temp\RSPB864.tmp"
 Creating browse info file...
 <h3>Output Window</h3>
 

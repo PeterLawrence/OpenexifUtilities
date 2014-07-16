@@ -1475,9 +1475,19 @@ LRESULT CALLBACK DateControlDlg(HWND hDlg, UINT message, WPARAM wParam, LPARAM l
                                 }
                             }
                             // Close the file
-                            if( inImageFile.close() != EXIF_OK )
+                            if (ModifiedValues)
                             {
-                                _snprintf(TheText,TheTextSize,"Error: Could not close JPEG file : %s\r\n", TheFileName );
+                                if( inImageFile.close() != EXIF_OK )
+                                {
+                                    _snprintf(TheText,TheTextSize,"Error: Could not close JPEG file : %s\r\n", TheFileName );
+                                }
+                            }
+                            else
+                            {
+                                if( inImageFile.closeDoNotSave() != EXIF_OK )
+                                {
+                                    _snprintf(TheText,TheTextSize,"Error: Could not close JPEG file : %s\r\n", TheFileName );
+                                }
                             }
                         }
                         else
